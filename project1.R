@@ -233,3 +233,5 @@ xyplot(
   xlab = "5-Minute Interval",
   ylab = "Average Number of Steps Taken"
 )
+
+## End of file
