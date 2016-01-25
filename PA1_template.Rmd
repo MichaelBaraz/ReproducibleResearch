@@ -251,4 +251,3 @@ xyplot(
   ylab = "Average Number of Steps Taken"
 )
 ```
-Concludes assignment
