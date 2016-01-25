@@ -291,23 +291,8 @@ activity_complete_days &lt;- activity[complete.cases(activity), ]
 
 ## Use group_by and summarize functions from dplyr
 library(&quot;dplyr&quot;)
-</code></pre>
 
-<pre><code>## 
-## Attaching package: &#39;dplyr&#39;
-</code></pre>
-
-<pre><code>## The following objects are masked from &#39;package:stats&#39;:
-## 
-##     filter, lag
-</code></pre>
-
-<pre><code>## The following objects are masked from &#39;package:base&#39;:
-## 
-##     intersect, setdiff, setequal, union
-</code></pre>
-
-<pre><code class="r">step_summary  &lt;-  activity_complete_days %&gt;% 
+step_summary  &lt;-  activity_complete_days %&gt;% 
   group_by(date) %&gt;% 
   summarize(daily_step_count = sum(steps))
 

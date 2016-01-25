@@ -97,26 +97,7 @@ activity_complete_days <- activity[complete.cases(activity), ]
 
 ## Use group_by and summarize functions from dplyr
 library("dplyr")
-```
 
-```
-## 
-## Attaching package: 'dplyr'
-```
-
-```
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 step_summary  <-  activity_complete_days %>% 
   group_by(date) %>% 
   summarize(daily_step_count = sum(steps))
