@@ -1,0 +1,16 @@
+---
+title:  "US Storm Data"
+author: "Michael Baraz"
+date:   "March 6, 2016"
+output: html_document
+---
+
+Public health and economic problems caused by Storms and other severe weather events 
+====================================================================================
+
+## Synopsis
+This data analysis addresses the following questions:   
+* Across the United States, which types of events (as indicated in the EVTYPE variable) are most harmful with respect to population health?   
+* Across the United States, which types of events have the greatest economic consequences?   
+
+## Data Processing
